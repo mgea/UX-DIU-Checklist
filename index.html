@@ -1,0 +1,694 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<!--------        [DIU] UX Project Checklist   (UX_Checklist.html)     -----------> 
+<!--------        [DIU] UX Toolkit https://github.com/mgea/UX-DIU-Toolkit   ------> 
+<!--------  Seleccionar lista de deliverables para proyecto UX               ----->
+<!--------  CCBY @mgea para HCI/DIU. UNiversidad de Granada                  ----->
+<!--------                                                                   ----->
+<!--------  Version 0.1  basado en @sovesove @UXChecklist   (6/12/2019)      ----->
+<!--------  Version 0.2  Modificados algunos items para DIU21 (17/02/2021)      ----->    
+<!-------   Thanks to https://github.com/uxchecklist/uxchecklist.github.io   ----->
+<!--------            Images: uxdesign.cc                                    -----> 
+<!----- Checklist:                                                           ----->
+<!-----   uxdesign   https://uxdesign.cc/ux-design-methods-deliverables-657f54ce3c7d   --->
+<!-----   uxmastery  https://uxmastery.com/resources/techniques/            ------->
+<!-----   J. Castellano's UX Designer Toolkit http://www.juliocreative.com  ------->
+<!-----   Saori Okawa UX Toolkit https://saoriokawa.webflow.io/portfolio/inktank -->
+<!-----   Updates:   30/01/2020 fixed checklist box                              -->
+<!---------------------------------------------------------------------------------->   
+
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UX [DIU] Checklist</title>
+    
+    <link rel="shortcut icon" href="favicon.ico?v=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta property="og:title" content="UX DIU Project Checklist" />
+    <meta property="og:ulr" content="http://https://github.com/mgea/UX-DIU-Toolkit/" />
+    <meta name="author" content="Miguel Gea, @usalab, 2019 adaptado de @sovesove @UXChecklist" >
+    <meta property="og:image" content="http://https://github.com/mgea/UX-DIU-Toolkit/apple-touch-icon.png" />
+    <meta property="og:description" content="Lista UX-Checklist adaptada a DIU" />
+    <meta name="author" content="Miguel Gea, @usalab, 2019 adaptado de @sovesove @UXChecklist" >
+    
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- moonmail.io embedded form styles (for better performance put this link in html head of your page) -->
+    <link rel="stylesheet" href="https://static.moonmail.io/mm-embedded-form.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!-- <script src="js/vendor/modernizr.js"></script> -->
+   
+</head>
+
+<body class="body-single">
+    <div id="fb-root"></div>
+    
+    <div id="printTitle" class="hidden">UX[DIU] Checklist: Project name: ________________________</div>
+    <header id="header" class="flexcontainer">
+        <div id="title" class="hide-for-print">
+            <h1>UX [DIU] Project Checklist</h1>
+        </div>
+       
+        
+       
+    </header>
+    <form id="checklist-form" method="POST">
+        <!-- FILA 1: RESEACH ***********************************************************   -->
+        <div class="row clearfix">
+            <div id="Research" class="title"><span>Research</span></div>
+            
+            <!-----  Competitive Analysis   ----->
+            <div class="cards">
+                <div class="img">
+                    <img class="left" src="img/icons128/Competitive.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox1">Competitive Analysis</label>
+                    <p>See how others solve similar problems and try to not reinvent the wheel. <a class="more hide-for-print" href="http://boxesandarrows.com/competitive-analysis-understanding-the-market-context/" target="_blank">Read more<span class="visually-hidden"> about Competitive Analysis: Understanding the Market Context</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox1" type="checkbox">
+                </div>
+            </div>
+            
+            
+            
+            
+            <!-----  Usability reviews   ----->
+            <div class="cards">
+                <div class="img">
+                    <img class="left" src="img/icons128/usabilityReview.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox2">Usability Review</label>
+                    <p>Heuristic review determining how usable a site is entails working through a checklist <a class="more hide-for-print" href="http://www.uxforthemasses.com/usability-reviews/" target="_blank">Read more </a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox2" type="checkbox">
+                </div>
+            </div>
+            <!-----  Etnography research   ----->
+            <div class="cards">
+                <div class="img">
+                    <img class="left" src="img/icons128/etnography_grub.png" alt="">
+                </div>
+                <div class="card-content left">
+                    
+                    <label for="checkbox3">Ethnography research</label>
+                    <p></p>
+                    <p>User research is to see the world from the perspective of another person. Make observations and conversations to understand your users <a class="more hide-for-print" href="http://www.clearworks.net/wp-content/uploads/2016/03/Ethnographic-Field-Guide..pdf" target="_blank">Read more<span class="visually-hidden"> ..</span></a></p>        
+                       
+                        
+                </div>
+                <div class="right">
+                    <input id="checkbox3" type="checkbox">
+                </div>
+            </div>
+        </div>
+        <!-- FILA 2: USERS ***********************************************************   -->
+        
+        <div class="row clearfix">
+            <div id="Research" class="title"><span>Users</span></div>
+
+            <!-----  Persona Template   ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/Persona.png" alt="">
+                </div>
+                <div class="card-content left">
+                    
+                    <label for="checkbox4">User stories: Persona</label>
+                    <p>Look for your users. Write stories to guide your design. <a class="more hide-for-print" href="http://www.uxforthemasses.com/personas/" target="_blank">Read more<span class="visually-hidden"> about persona's template</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox4" type="checkbox">
+                </div>
+            </div>
+            
+            <!-----  User Journey Map   ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/JourneyMap.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox5">User Journey Map</label>
+                    <p>This journey represents a scenario in which a user might interact with the thing you are designing and their emotional state in each step <a class="more hide-for-print" href="http://theuxreview.co.uk/user-journeys-beginners-guide/" target="_blank">Read more<span class="visually-hidden"> about designing journey maps</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox5" type="checkbox">
+                </div>
+            </div>
+            <!-----  Empathy mapping   ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/empathyMap.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox6">Empathy Map</label>
+                    <p>An Empathy Map is a  tool that can help you to synthesise your observations and identify unexpected insights about your user’s needs.<a class="more hide-for-print" href=" https://www.interaction-design.org/literature/article/empathy-map-why-and-how-to-use-it " target="_blank">Read more<span class="visually-hidden"> about empathy mapping</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox6" type="checkbox">
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- FILA 3: DESIGN THINKING / BRAINSTORMING **************************************************   -->
+
+        <!---- DESIGN THINKING ---> 
+        <div class="row clearfix">
+            <div id="Feedbacks" class="title"><span>Design Thinking</span></div>
+            
+               <!-----  Feedback Capture Grid   ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/feedback-capture-grid.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox10">Feedback Capture Grid</label>
+                    <p> A structured way of organising feedback that is gathered from your testing sessions. <a class="more hide-for-print" href="https://public-media.interaction-design.org/pdf/Feedback-Capture-Grid.pdf" target="_blank">Read more<span class="visually-hidden"> usind template</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox10" type="checkbox">
+                </div>
+            </div>
+            
+            <!-----  SCAMPER    ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/POV.png"     alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox7">Point of View</label>
+                    <p>Allow you to ideate and solve your design challenge, you keep a focus on your users, their needs and your insights about them. <a class="more hide-for-print" href="https://www.interaction-design.org/literature/article/define-and-frame-your-design-challenge-by-creating-your-point-of-view-and-ask-how-might-we" target="_blank">Read more<span class="visually-hidden"></span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox7" type="checkbox">
+                </div>
+            </div>
+            
+              
+            <!-----  MVP    ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/MVP.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox9">MVP ScopeCanvas</label>
+                    <p>By using a LeanUX cavas to achieve the Minimum Viable Product, the version of the final product  with less effort <a class="more hide-for-print" href=" http://scopecanvas.com/ " target="_blank">Read more<span class="visually-hidden"> using ScopeCanvas</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox9" type="checkbox">
+                </div>
+            </div>
+           
+        </div>
+        
+         <!-- FILA 4:   **************************************************   -->
+        
+         <div class="row clearfix">
+            <div id="Explore" class="title"><span>Analisys</span></div>
+             
+             <!-----  Task Analysis  ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/tasks_128.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox10">Task Analysis</label>
+                    <p> Identify your users’ goals and what they are trying to achieve. Also, the steps that your users currently take in order to achieve their goals  <a class="more hide-for-print" href="https://www.interaction-design.org/literature/article/task-analysis-a-ux-designer-s-best-friend" target="_blank">Read more<span class="visually-hidden"> usind template</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox10" type="checkbox">
+                </div>
+            </div>
+              <!-----  Information Architecture: Sitemap   ----->
+             <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/Sitemap.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox11">IA Sitemap</label>
+                    <p>Focus on the Information Architecture task at the beginning of the design process creating a complete list of all pages available on a website and the intitial navigation<a class="more hide-for-print" href="https://www.uxmatters.com/mt/archives/2016/01/the-purpose-of-site-maps-and-other-design-deliverables.php?source=post_page-----8dc3487111a3----------------------" target="_blank">Read more<span class="visually-hidden"> about The Discipline of Content Strategy</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox11" type="checkbox">
+                </div>
+            </div>
+             
+              <!-----  Information Architecture: Labelling   ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/labelling.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox12">Labelling i18n</label>
+                    <p>Follow your brand personality, keep in mind users' culture and language, the context of your product and make sure they understand you. <a class="more hide-for-print" href="http://alistapart.com/article/translation-is-ux" target="_blank">Read more<span class="visually-hidden"> about Translation is UX</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox12" type="checkbox">
+                </div>
+            </div>             
+             
+        </div>
+        
+   <!-- FILA 5:  DESIGN **************************************************   -->
+      
+        
+            
+        <div class="row clearfix">
+            <div id="Design" class="title"><span>Design</span></div>
+            
+            
+            <!-----  Moodboards     ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/moodboard.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox15">Moodboard</label>
+                    <p>A moodboard is a collage of images, fonts, interactions, features, icons, and UI elements to communicate the artistic direction of a project <a class="more hide-for-print" href="https://uxplanet.org/creating-better-moodboards-for-ux-projects-381d4d6daf70" target="_blank">Read more<span class="visually-hidden"> about Moodboard</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox15" type="checkbox">
+                </div>
+            </div>
+            
+            <!-------Landing page ------------->
+            
+         <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/landing-page.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox13">Landing Page</label>
+                    <p>For branding, a landing page is a dedicated online page built solely for accomplishing one or more marketing goals such as generating leads or getting clicks<a class="more hide-for-print" href="https://hackernoon.com/top-7-ux-principles-for-designing-high-converting-landing-pages-3e4cb951c8e2" target="_blank">Read more<span class="visually-hidden"> </span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox13" type="checkbox">
+                </div>
+            </div>
+            
+            <!-----  Wireframing    ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/Wireframes.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox14">Wireframe</label>
+                    <p>Add some details and structure to your ideas, reuse patterns and create pages on top of your user flows so you'll not leave anything behind. <a class="more hide-for-print" href="http://www.uxpin.com/guide-to-wireframing.html" target="_blank">Read more<span class="visually-hidden"> about The Guide to Wireframing</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox14" type="checkbox">
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+      
+     <!-- FILA 6:   USABILITY     **************************************************   -->
+    
+        <div class="row clearfix">
+            <div id="Design" class="title"><span>Design</span></div>
+           
+          
+            <!----- UI Patterns    ---->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/Patterns.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox16">UI Patterns</label>
+                    <p>Reuse elements and patterns. Follow your style guidelines. Don't have any? Create your guidelines. Start small, then create pages. <a class="more hide-for-print" href="http://styleguides.io/" target="_blank">Read more<span class="visually-hidden"> about styleguides.io</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox16" type="checkbox">
+                </div>
+            </div>
+            
+            <!-----  GUIDELINES   ---->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/guidelines.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox17">Guidelines</label>
+                    <p> UI guidelines explain the best practices of UI components and understanding of their behavior by giving real examples.  <a class="more hide-for-print" href=" https://uxplanet.org/why-you-need-ui-guidelines-d380e407b759" target="_blank">Read more <span class="visually-hidden"> about guidelines</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox17" type="checkbox">
+                </div>
+            </div>
+            
+             <!-----  Mockup     ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/mockup.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox18">Mockup</label>
+                    <p>A mockup is a visual way of representing a product,  wireframe  represents a product’s structure while a mockup shows how the product is going to look like <a class="more hide-for-print" href="https://www.creativebloq.com/web-design/use-mockups-21514108/" target="_blank">Read more<span class="visually-hidden"> about mockups</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox18" type="checkbox">
+                </div>
+            </div>
+            
+        </div>
+            
+        
+         <!-- FILA 7:  USABILIDAD & ACCESIBILIDAD      **************************************************   -->
+    
+        <div class="row clearfix">
+            <div id="Testing" class="title"><span>Testing</span></div>
+          <!--  <div id="usability" class="title"><span>Usability</span></div>  --->
+            
+            <!-----  Prototype     ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/5seconds.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox19">Qualitative Reseach: 5" test</label>
+                    <p> What users think about a new landing page or a new logo. Test the first impressions, and also what people will understand at first look   <a class="more hide-for-print" href="https://usabilityhub.com/guides/five-second-testing" target="_blank">Read more<span class="visually-hidden"> about Prototyping</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox19" type="checkbox">
+                </div>
+            </div>
+            
+            <!-----  Usability testing      ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/usability-testing.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox20">Usability Testing</label>
+                    <p>Take survey, sessions recording: test, observe and fix, test, observe. Validates and collects feedback of flows, design and features.<a class="more hide-for-print" href="https://medium.com/swlh/how-to-do-user-testing-on-a-budget-bc4000d4387" target="_blank"> Read more<span class="visually-hidden"> about user testing</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox20" type="checkbox">
+                </div>
+            </div>
+            
+            <!-----  A/B Testing     ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/ABtesting.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox21">A/B Testing</label>
+                    <p> Experiment ( split testing) method for comparing two versions of something to determine which one is more successful.<a class="more hide-for-print" href=" https://www.smashingmagazine.com/2010/06/the-ultimate-guide-to-a-b-testing/" target="_blank"> Read more<span class="visually-hidden"> about How design can help with inclusion</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox21" type="checkbox">
+                </div>
+            </div>
+        </div>
+        
+   
+        
+          <!-- FILA 8:  Testing USABILIDAD & ACCESIBILIDAD      **************************************************   -->
+    
+        
+        
+        <div class="row clearfix">
+            <div id="Testing" class="title"><span>Testing</span></div>
+            <!-----  Questionaries     ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/Survey.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox22">Questionaires</label>
+                    <p>Quick and unexpensive way of measuring user satisfaction and collecting feedback about the product. The System Usability Scale (SUS) is a frequently used questionnaire to measure usability.<a class="more hide-for-print" href="http://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usability-of-your-website/" target="_blank"> Read more<span class="visually-hidden"> about SUS</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox22" type="checkbox">
+                </div>
+            </div>
+            
+            <!-----  Heatmap      ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/eye-tracking.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox23">Eye Tracking </label>
+                    <p>A technology that analyzes the user’s eye movements across the interface. Provides data about what keeps users interested on the screen and how their reading flow could be optimized by design.<a class="more hide-for-print" href="https://www.uxmatters.com/mt/archives/2009/10/eyetracking-is-it-worth-it.php" target="_blank"> Read more<span class="visually-hidden"> about The State of Ethics in Design</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox23" type="checkbox">
+                </div>
+            </div>
+            
+            <!-----  Usability report     ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/usability-report.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox24">Usability Report</label>
+                    <p>A Usability Report is a key document that allows you to gain insight into your users’ expectations and frustrations and is crucial in evaluating your product’s success <a class="more hide-for-print" href="http://www.sage-research.com/v4/sage_usability_study_report_example.pdf" target="_blank"> Read more<span class="visually-hidden"> about How design can help with inclusion</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox24" type="checkbox">
+                </div>
+            </div>
+        </div>
+        
+     <!-- FILA 9:  USABILIDAD & ACCESIBILIDAD      **************************************************   -->
+    
+         
+        <div class="row clearfix">
+            
+            <div id="Accessible" class="title"><span>Accesiblity</span></div>
+            
+            <!-----  Accesibilidad     ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/Accesibility.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox25">Accesibility</label>
+                    <p>A study to measure if the website can be used by everyone, including users with special needs.  <a class="more hide-for-print" href="https://uxplanet.org/how-to-create-interfaces-that-benefit-all-accessibility-testing-and-inclusive-design-principles-ed15477bcce0" target="_blank">Read more <span class="visually-hidden"> about Accessibility</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox25" type="checkbox">
+                </div>
+            </div>
+            
+             <!-----  Test: inspeccion     ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/inspection.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox26">Inspection Methods </label>
+                    <p>Check for W3 WCAG accessibility standards for compliance <a class="more hide-for-print" href="https://uxdesign.cc/accessibility-guidelines-for-a-ux-designer-c3ba775539be" target="_blank">Read more<span class="visually-hidden"> about standards inspection methods</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox26" type="checkbox">
+                </div>
+            </div>
+            
+             <!-----  Disability Simulator    ----->
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/disabilitySim.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox27">Disability Simulator</label>
+                    <p>The Web Disability Simulator lets you experience how people with different disabilities or inadequate abilities perceive a web site. <a class="more hide-for-print" href="https://www.a11yportal.com/basics/essentials/tools.html" target="_blank">Read more<span class="visually-hidden"> about Disability simulators</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox27" type="checkbox">
+                </div>
+            </div>
+        </div>
+       
+
+        <!----               FIN DE TECNICAS USADAS            ------->
+        
+        
+        
+        <div class="row clearfix">
+            <div id="Others" class="title"><span>Others</span></div>
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/KickOfMeeting.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox28">KickOff Meeting</label>
+                    <p>he kickoff meeting is also a good time to talk about project success metrics and the design framework that you will be using during the project.<a class="more hide-for-print" href="https://www.smashingmagazine.com/2015/01/hold-a-kickoff-meeting-before-diving-into-the-design/" target="_blank">Read more<span class="visually-hidden"> about Kick Off</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox28" type="checkbox">
+                </div>
+            </div>
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/stakeholder.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox29">Stakeholders Interviews</label>
+                    <p>Conversations with the key contacts in the client organisation funding, selling, or driving the product. <a class="more hide-for-print" href="https://www.uxmatters.com/mt/archives/2007/09/conducting-successful-interviews-with-project-stakeholders.php" target="_blank">Read more<span class="visually-hidden"> about Interviews</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox29" type="checkbox">
+                </div>
+            </div>
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/inclusivedesign.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox30">Inclusive Design</label>
+                    <p>6 Principles for Inclusive Design: How designing for equity & accessibility benefits everyone<a class="more hide-for-print" href="https://uxplanet.org/6-principles-for-inclusive-design-3e9867f7f63e" target="_blank">Read more<span class="visually-hidden"> about Inclusive design</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox30" type="checkbox">
+                </div>
+            </div>
+        </div>
+        
+        <!---------  NO USADOS ------------------
+          ---------------------------------------
+          -----  Storyboards     ----------------
+
+
+            <div class="cards clearfix">
+                <div class="img">
+                    <img class="left" src="img/icons128/storyboard.png" alt="">
+                </div>
+                <div class="card-content left">
+                    <label for="checkbox15">Storyboard</label>
+                    <p>A comic strip that illustrates the series of actions that consumers need to take while using the product. Translates functionalities into real-life situations <a class="more hide-for-print" href="https://uxmag.com/articles/storyboarding-in-the-software-design-process" target="_blank">Read more<span class="visually-hidden"> about Prototyping Tools</span></a></p>
+                </div>
+                <div class="right">
+                    <input id="checkbox15" type="checkbox">
+                </div>
+            </div>
+        </div>
+        -------> 
+
+    </form>
+    <footer id="footer" class="flexcontainer hide-for-print">
+
+        <!------ FOOTER ---------->
+            
+         UX DIU CheckList 2021 -  Basado en <a href="http://uxchecklist.github.io/" target="_blank">@sovesove @UXChecklist</a> &nbsp; References:
+        <a href="https://uxdesign.cc/ux-design-methods-deliverables-657f54ce3c7d" target="_blank">UXDESIGN.CC</a>&nbsp; Alternative Toolkits: <a href="https://blog.usejournal.com/the-ux-designers-toolkit-26-methods-tutorials-and-free-templates-8dc3487111a3" target="_blank">Userjournal</a>    Github: <a href="https://github.com/mgea/UX-DIU-Checklist" target="_blank"> UX [DIU] Project Checklists</a> 
+          
+    </footer>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- <script src="js/vendor/jquery.js"></script> -->
+    <script>
+    window.Modernizr || document.write('<script type="text/javascript" src="js/vendor/modernizr.js">\x3C/script>');
+    window.jQuery || document.write('<script type="text/javascript" src="js/vendor/jquery.js">\x3C/script>');
+    </script>
+    <script src="js/garlic.js"></script>
+    <script src="js/jquery-labelauty.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $(":checkbox").labelauty({ label: false });
+        $("#checklist-form").garlic();
+        $("#print").on('click', function() {
+            ga('send', 'event', 'print', 'click', 'print');
+            window.print();
+        });
+        $("#reset").on('click', function() {
+            ga('send', 'event', 'reset', 'click', 'reset');
+            $('input:checkbox').each(function() {
+                $(this).prop('checked', false);
+            });
+            $("#checklist-form").garlic('destroy');
+        });
+        $("#footer a").on('click', function(e) {
+            var elm = e.currentTarget;
+            ga('send', 'event', 'footer', $(elm).attr('id'));
+        });
+        $("input:checkbox").on('change', function(e) {
+            var cb = $(this);
+            var id = cb.attr('id');
+            var isChecked = cb.is(':checked');
+            ga('send', 'event', {
+                'eventCategory': 'checkbox',
+                'eventAction': isChecked ? 'set' : 'clear',
+                'eventLabel': id
+            });
+        });
+        $('.open-popup-link').magnificPopup({
+            type: 'inline',
+            midClick: true,
+            callbacks: {
+                open: function() {
+                    ga('send', 'event', 'popup', 'open', $(this.content).attr('id'));
+                },
+                close: function() {
+                    ga('send', 'event', 'popup', 'close', $(this.content).attr('id'));
+                }
+            }
+        });
+    });
+    //realtime api
+    var checkboxes = {};
+    var view = null;
+    var controller = null;
+    $().ready(function() {
+        var isFn = function(id, e) { return $(e).is(':checked'); };
+        var setFn = function(id, e, val) {
+            $(e).prop('checked', val);
+            $(e).garlic('persist');
+        };
+        $('input:checkbox').each(function() {
+            var id = $(this).attr('id');
+            checkboxes[id] = new Realtime.Model.CheckBox(id, this, isFn, setFn);
+        });
+        view = new Realtime.View(checkboxes);
+        var cb = view.checkboxes;
+        console.log(cb);
+        controller = new Realtime.Controller(view);
+        gapi.load("auth:client,drive-realtime,drive-share", function() {
+            controller.init();
+            $('form').on('change', 'input:checkbox', function(ev) {
+                console.log(ev);
+                controller.onCheckBoxChange($(ev.target).attr('id'));
+            });
+            var signinSuccess = function() {
+                $('#signin-do').hide();
+                $('#signin-fail').hide();
+                $('#signin-success').show();
+                $("#reset").on('click', function() {
+                    controller.save();
+                });
+            };
+            var signinFailed = function() {
+                $('#signin-fail').show();
+            };
+            controller.auth(true,
+                signinSuccess,
+                function() { $('#signin-do').show(); }
+            );
+            $('#signin').on('click', function() {
+                controller.auth(false, signinSuccess, signinFailed);
+            });
+        });
+    });
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/api.js"></script>
+    <script type="text/javascript" src="js/realtime.js"></script>
+    <script type="text/javascript" src="js/index-single.js"></script>
+    
+</body>
+
+</html>
