@@ -10,7 +10,8 @@ Online version: https://mgea.github.io/DIU (https://mgea.github.io/UX-DIU-Checkl
 Github repositorio: https://github.com/mgea/UX-DIU-Checklist 
 
 ver 1.0 01/02/2020
-ver 1.1 updated 18/02/2021
+ver 1.1 updated 18/02/2021 
+GPL-3.0 CCBYSA
 
 ### Desk Research 
 
