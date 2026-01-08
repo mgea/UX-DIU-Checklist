@@ -5,12 +5,11 @@ UX DIU Project Checklist
 
 UX CheckList para Diseño de Interfaces de Usuario, Universidad de Granada (https://github.com/mgea/DIU19) 
 
-Online version: https://mgea.github.io/DIU (https://mgea.github.io/UX-DIU-Checklist/index.html)
-
-Github repositorio: https://github.com/mgea/UX-DIU-Checklist 
+Site: https://mgea.github.io/UX-DIU-Checklist/
+Github repo: https://github.com/mgea/UX-DIU-Checklist 
 
 ver 1.0 01/02/2020
-ver 1.1 updated 18/02/2021 
+ver 1.1 updated 18/02/2025 
 GPL-3.0 CCBYSA
 
 ### Desk Research 
